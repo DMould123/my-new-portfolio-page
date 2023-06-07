@@ -47,7 +47,7 @@
     <section class="home" id="home">
       <div class="home-text">
         <h1>David Mould</h1>
-        <h5>JavaScript Student</h5>
+        <h5>Frontend Developer</h5>
         <p>Newly graduated developer, looking for work opportunities.</p>
         <div class="social-links">
           <a href="https://www.linkedin.com/in/david-mould-b6731a21a/"
@@ -272,13 +272,17 @@
         </div>
 
         <div class="action">
-          <form>
+          <form
+            action="https://formsubmit.co/david.mould123@yahoo.com"
+            method="POST"
+          >
             <div class="form-group">
               <input
                 type="text"
                 name="name"
                 placeholder="&#x1F464; Name"
                 required
+                class="form-group"
               />
             </div>
             <div class="form-group">
@@ -287,7 +291,7 @@
                 name="email"
                 placeholder="&#x1F4E7; Email"
                 required
-                class="email-input"
+                class="form-group email-input"
               />
             </div>
             <div class="form-group">
@@ -296,6 +300,7 @@
                 name="phone"
                 placeholder="&#x1F4DE; Phone Number"
                 required
+                class="form-group"
               />
             </div>
             <div class="form-group">
@@ -303,11 +308,16 @@
                 name="message"
                 placeholder="&#x2709; Message"
                 required
-                class="message-input"
+                class="form-group message-input"
               ></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" name="submit" value="Send Message" />
+              <input
+                type="submit"
+                name="submit"
+                value="Send Message"
+                class="form-group"
+              />
             </div>
           </form>
         </div>

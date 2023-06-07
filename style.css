@@ -505,7 +505,7 @@ header.sticky {
     padding: 1.2rem;
     margin: 1.5rem;
     border-right: 2px solid var(--bg-color);
-    color: var(--bg-color);
+    color: var(--text-color);
   }
   .navlist a:hover {
     background: var(--bg-color);
