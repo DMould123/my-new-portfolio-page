@@ -71,6 +71,10 @@ header {
   cursor: pointer;
   display: none;
 }
+.button-container {
+  text-align: center; /* Center the buttons horizontally */
+}
+
 .download-btn {
   display: inline-block;
   padding: 9px 30px;
@@ -82,7 +86,10 @@ header {
   font-size: var(--p-font);
   font-weight: 500;
   transition: ease 0.5s;
+  margin: 5px; /* Add spacing between buttons if needed */
+  width: 45%; /* Set a fixed width for both buttons to make them the same size */
 }
+
 .download-btn:hover {
   transform: scale(1.1);
   background: var(--btn-color);
