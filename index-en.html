@@ -22,17 +22,19 @@
     />
   </head>
   <body>
-    <!--------header---->
+    <!-- header -->
     <header>
       <a href="#" class="logo"><img src="./img/DM.jpg" /></a>
-      <ul class="navlist">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav>
+        <ul class="navlist">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="bx bx-menu" id="menu-icon"></button>
       <ul class="language-switcher">
         <li>
           <a href="index-en.html"><img src="./img/gb.png" alt="UK" /></a>
@@ -43,316 +45,328 @@
       </ul>
     </header>
 
-    <!--------home---->
-    <section class="home" id="home">
-      <div class="home-text">
-        <h1>David Mould</h1>
-        <h5>Fullstack Developer</h5>
-        <p>Social Fullstack Developer keen to take on exciting projects</p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/david-mould-b6731a21a/"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://twitter.com/DM12_51"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a href="https://github.com/DMould123"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
-        <div class="button-container">
-          <a href="./forms/David Mould, CV - Eng.pdf" class="download-btn"
-            >Download CV</a
-          >
-          <a href="./forms/Examensbevis - David Mould.pdf" class="download-btn"
-            >Diploma</a
-          >
-        </div>
-        <div class="libraries-row">
-          <img src="./img/vue.png" alt="Vue.js" class="library-img" />
-          <img
-            src="./img/react-1-logo.png"
-            alt="React.js"
-            class="library-img"
-          />
-          <img
-            src="./img/typescript.png"
-            alt="TypeScript"
-            class="library-img"
-          />
-          <img src="./img/node.png" alt="Node.js" class="library-img" />
-          <img src="./img/firebase.png" alt="Firebase" class="library-img" />
-          <img
-            src="./img/Mongodb-PNG-Image-HD.png"
-            alt="MongoDB"
-            class="library-img"
-          />
-        </div>
-      </div>
-      <div class="home-img">
-        <img src="./img/david1.png" />
-      </div>
-    </section>
-
-    <!--------About---->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./img/dm5.png" />
-      </div>
-
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>
-          Hello! I'm David, a recent graduate with a strong social component as
-          a Frontend Developer. I've completed two internships and I'm now ready
-          for exciting new projects. During my studies, I've built a solid
-          competence in various programming languages, including JavaScript,
-          HTML, CSS, React, React Native, and Angular. I've delved into database
-          technologies like MySQL, MongoDB, and recently explored Firebase.
-        </p>
-        <div class="items">
-          <div class="sub-box">
-            <div class="sub-img">
-              <img src="./img/hike.jpg" />
-            </div>
-            <h3>Hiking</h3>
-            <p>I enjoy hiking in the archipelagos.</p>
+    <!-- home -->
+    <main>
+      <section class="home" id="home">
+        <!-- Home content -->
+        <div class="home-text">
+          <h1>David Mould</h1>
+          <h5>Fullstack Developer</h5>
+          <p>Social Fullstack Developer keen to take on exciting projects</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/david-mould-b6731a21a/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/DM12_51"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://github.com/DMould123"
+              ><i class="bx bxl-github"></i
+            ></a>
           </div>
-
-          <div class="sub-box">
-            <div class="sub-img">
-              <img src="./img/music.jpg" />
-            </div>
-            <h3>Music</h3>
-            <p>Nostalgic about indie music.</p>
-          </div>
-          <div class="sub-box">
-            <div class="sub-img">
-              <img src="./img/travel.jpg" />
-            </div>
-            <h3>Travelling</h3>
-            <p>Love travelling whenever possible.</p>
-          </div>
-          <div class="sub-box">
-            <div class="sub-img">
-              <img src="./img/nft.png" />
-            </div>
-            <h3>Sorare</h3>
-            <p>NFT Fantasy Football game.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--------skills ---->
-    <section class="skills" id="skills">
-      <div class="skills-text">
-        <h2>My Skills</h2>
-        <p>
-          As a newly graduated developer, I have acquired the following skills:
-        </p>
-      </div>
-
-      <div class="skills-container">
-        <div class="skills-column">
-          <div class="skill">
-            <h3>HTML & CSS</h3>
-            <p>
-              Proficient in creating responsive web designs using HTML and CSS.
-            </p>
-          </div>
-
-          <div class="skill">
-            <h3>JavaScript</h3>
-            <p>
-              Strong understanding of JavaScript fundamentals and experience
-              with frameworks such as React, React Native, Vue.js, and Angular.
-            </p>
-          </div>
-
-          <div class="skill">
-            <h3>UX Design</h3>
-            <p>
-              Experience working with Figma and Balsamiq wireframes to create
-              user-friendly designs.
-            </p>
-          </div>
-        </div>
-
-        <div class="skills-column">
-          <div class="skill">
-            <h3>Databases</h3>
-            <p>Experience with Firebase, MySQL and MongoDB databases.</p>
-          </div>
-          <div class="skill">
-            <h3>React with Typescript</h3>
-            <p>
-              Experience with React and Typescript, including strong
-              understanding of type annotations and interfaces.
-            </p>
-          </div>
-
-          <div class="skill">
-            <h3>WordPress</h3>
-            <p>
-              Experience developing custom WordPress themes and plugins using
-              PHP and WordPress APIs.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--------service---->
-    <section class="portfolio" id="portfolio">
-      <div class="skills-text">
-        <h2>Portfolio</h2>
-        <p>Here are a few of my projects that I have created so far:</p>
-      </div>
-      <div class="service-content">
-        <div class="row">
-          <div class="s s-one">
-            <img src="./img/html.png" />
-          </div>
-          <h3>HTML, CSS, & JavaScript</h3>
-          <h5>
+          <div class="button-container">
+            <a href="./forms/David Mould, CV - Eng.pdf" class="download-btn"
+              >Download CV</a
+            >
             <a
-              href="https://game-of-thrones-quote-generator-igq59kwgi-dmould123.vercel.app"
-              >Game of Thrones Random Quote Generator</a
+              href="./forms/Examensbevis - David Mould.pdf"
+              class="download-btn"
+              >Diploma</a
             >
-          </h5>
-          <p>
-            This web app, the Game of Thrones Quote Generator, provides random
-            quotes from your beloved Game of Thrones characters. It's built
-            using HTML, CSS, and JavaScript, and features FontAwesome Icons for
-            a visually appealing experience.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="s s-two">
-            <img src="./img/react-1-logo.png" />
           </div>
-          <h3>React</h3>
-          <h5>
-            <a href="https://musicandmovies.netlify.app">Music & Movies</a>
-          </h5>
-          <p>
-            Movies & Music is a collection of my favorite movies and albums.
-            This project represents my journey in full-stack web development,
-            with a focus on React for the frontend and a robust backend powered
-            by Node.js, Express.js, and MongoDB.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="s s-three">
-            <img src="./img/typescript.png" />
+          <div class="libraries-row">
+            <img src="./img/vue.png" alt="Vue.js" class="library-img" />
+            <img
+              src="./img/react-1-logo.png"
+              alt="React.js"
+              class="library-img"
+            />
+            <img
+              src="./img/typescript.png"
+              alt="TypeScript"
+              class="library-img"
+            />
+            <img src="./img/node.png" alt="Node.js" class="library-img" />
+            <img src="./img/firebase.png" alt="Firebase" class="library-img" />
+            <img
+              src="./img/Mongodb-PNG-Image-HD.png"
+              alt="MongoDB"
+              class="library-img"
+            />
           </div>
-          <h3>TypeScript</h3>
-          <h5>
-            <a
-              href="https://david-mould-testing-typescript-quiz-4r7jih30l-dmould123.vercel.app"
-              >React Typescript Quiz App</a
-            >
-          </h5>
-          <p>
-            A React and Typescript-based school project powered by the Trivia
-            API, offering interactive quizzes. Users can select from various
-            categories and difficulty levels, answering randomized questions
-            within a 30-second time limit. Feel free to give it a try!
-          </p>
+        </div>
+        <div class="home-img">
+          <img src="./img/david1.png" />
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about" id="about">
+        <!-- About content -->
+        <div class="about-img">
+          <img src="./img/dm5.png" />
         </div>
 
-        <div class="row">
-          <div class="s s-four">
-            <img src="./img/vue.png" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm David, a recent graduate with a strong social component
+            as a Fullstack Developer. I've completed two internships and I'm now
+            ready for exciting new projects. During my studies, I've built a
+            solid competence in various programming languages, including
+            JavaScript, HTML, CSS, React, React Native, and Angular. I've delved
+            into database technologies like MySQL, MongoDB, Firebase and
+            recently started explored Java.
+          </p>
+          <div class="items">
+            <div class="sub-box">
+              <div class="sub-img">
+                <img src="./img/hike.jpg" />
+              </div>
+              <h3>Hiking</h3>
+              <p>I enjoy hiking in the archipelagos.</p>
+            </div>
+
+            <div class="sub-box">
+              <div class="sub-img">
+                <img src="./img/music.jpg" />
+              </div>
+              <h3>Music</h3>
+              <p>Nostalgic about indie music.</p>
+            </div>
+            <div class="sub-box">
+              <div class="sub-img">
+                <img src="./img/travel.jpg" />
+              </div>
+              <h3>Travelling</h3>
+              <p>Love travelling whenever possible.</p>
+            </div>
+            <div class="sub-box">
+              <div class="sub-img">
+                <img src="./img/nft.png" />
+              </div>
+              <h3>Sorare</h3>
+              <p>NFT Fantasy Football game.</p>
+            </div>
           </div>
-          <h3>Vue</h3>
-          <h5>
-            <a href="https://dmould-punkbeer-generator.netlify.app/#/"
-              >Punk Beer API Generator</a
-            >
-          </h5>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="skills" id="skills">
+        <!-- Skills content -->
+        <div class="skills-text">
+          <h2>My Skills</h2>
           <p>
-            This school project is a simple web app that generates random beers
-            using the Punk API. It's built with Vue and includes a navigation
-            bar with links to the Home, Beer Generator, and Company
-            Profile/Contact Page.
+            As a newly graduated developer, I have acquired the following
+            skills:
           </p>
         </div>
-      </div>
-    </section>
 
-    <!-----contact---->
+        <div class="skills-container">
+          <div class="skills-column">
+            <div class="skill">
+              <h3>HTML & CSS</h3>
+              <p>
+                Proficient in creating responsive web designs using HTML and
+                CSS.
+              </p>
+            </div>
 
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="center">
-          <h3>Contact Me</h3>
-          <p>Get in touch</p>
+            <div class="skill">
+              <h3>JavaScript</h3>
+              <p>
+                Strong understanding of JavaScript fundamentals and experience
+                with frameworks such as React, React Native, Vue.js, and
+                Angular.
+              </p>
+            </div>
+
+            <div class="skill">
+              <h3>UX Design</h3>
+              <p>
+                Experience working with Figma and Balsamiq wireframes to create
+                user-friendly designs.
+              </p>
+            </div>
+          </div>
+
+          <div class="skills-column">
+            <div class="skill">
+              <h3>Databases</h3>
+              <p>Experience with Firebase, MySQL and MongoDB databases.</p>
+            </div>
+            <div class="skill">
+              <h3>React with Typescript</h3>
+              <p>
+                Experience with React and Typescript, including strong
+                understanding of type annotations and interfaces.
+              </p>
+            </div>
+
+            <div class="skill">
+              <h3>WordPress</h3>
+              <p>
+                Experience developing custom WordPress themes and plugins using
+                PHP and WordPress APIs.
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="action">
-          <form action="https://formspree.io/f/mjvdqpav" method="POST">
-            <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="&#x1F464; Name"
-                required
-                class="form-group"
-              />
-            </div>
-
-            <div class="form-group">
-              <input
-                type="email"
-                name="email"
-                placeholder="&#x1F4E7; Email"
-                required
-                class="form-group email-input"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="tel"
-                name="phone"
-                placeholder="&#x1F4DE; Phone Number"
-                required
-                class="form-group"
-              />
-            </div>
-            <div class="form-group">
-              <textarea
-                name="message"
-                placeholder="&#x2709; Message"
-                required
-                class="form-group message-input"
-                rows="6"
-              ></textarea>
-            </div>
-            <div class="form-group">
-              <input
-                type="submit"
-                name="submit"
-                value="Send Message"
-                class="form-group"
-              />
-            </div>
-          </form>
+      <!-- portfolio -->
+      <section class="portfolio" id="portfolio">
+        <!-- Portfolio content -->
+        <div class="skills-text">
+          <h2>Portfolio</h2>
+          <p>Here are a few of my projects that I have created so far:</p>
         </div>
-      </div>
-    </section>
+        <div class="service-content">
+          <div class="row">
+            <div class="s s-one">
+              <img src="./img/html.png" />
+            </div>
+            <h3>HTML, CSS, & JavaScript</h3>
+            <h5>
+              <a
+                href="https://game-of-thrones-quote-generator-igq59kwgi-dmould123.vercel.app"
+                >Game of Thrones Random Quote Generator</a
+              >
+            </h5>
+            <p>
+              This web app, the Game of Thrones Quote Generator, provides random
+              quotes from your beloved Game of Thrones characters. It's built
+              using HTML, CSS, and JavaScript, and features FontAwesome Icons
+              for a visually appealing experience.
+            </p>
+          </div>
 
-    <!--------footer---->
+          <div class="row">
+            <div class="s s-two">
+              <img src="./img/react-1-logo.png" />
+            </div>
+            <h3>React</h3>
+            <h5>
+              <a href="https://musicandmovies.netlify.app">Music & Movies</a>
+            </h5>
+            <p>
+              Movies & Music is a collection of my favorite movies and albums.
+              This project represents my journey in full-stack web development,
+              with a focus on React for the frontend and a robust backend
+              powered by Node.js, Express.js, and MongoDB.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="s s-three">
+              <img src="./img/typescript.png" />
+            </div>
+            <h3>TypeScript</h3>
+            <h5>
+              <a
+                href="https://david-mould-testing-typescript-quiz-4r7jih30l-dmould123.vercel.app"
+                >React Typescript Quiz App</a
+              >
+            </h5>
+            <p>
+              A React and Typescript-based school project powered by the Trivia
+              API, offering interactive quizzes. Users can select from various
+              categories and difficulty levels, answering randomized questions
+              within a 30-second time limit. Feel free to give it a try!
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="s s-four">
+              <img src="./img/vue.png" />
+            </div>
+            <h3>Vue</h3>
+            <h5>
+              <a href="https://dmould-punkbeer-generator.netlify.app/#/"
+                >Punk Beer API Generator</a
+              >
+            </h5>
+            <p>
+              This school project is a simple web app that generates random
+              beers using the Punk API. It's built with Vue and includes a
+              navigation bar with links to the Home, Beer Generator, and Company
+              Profile/Contact Page.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact" id="contact">
+        <!-- Contact content -->
+        <div class="container">
+          <div class="center">
+            <h3>Contact Me</h3>
+            <p>Get in touch</p>
+          </div>
+
+          <div class="action">
+            <form action="https://formspree.io/f/mjvdqpav" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="&#x1F464; Name"
+                  required
+                  class="form-group"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="&#x1F4E7; Email"
+                  required
+                  class="form-group email-input"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="&#x1F4DE; Phone Number"
+                  required
+                  class="form-group"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  placeholder="&#x2709; Message"
+                  required
+                  class="form-group message-input"
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  name="submit"
+                  value="Send Message"
+                  class="form-group"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
     <div class="footer">
       <p class="text-red-500 text-lg font-bold">© David Mould 2024 ©</p>
     </div>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!--------Link to js---->
+    <!-- Link to JavaScript file -->
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
