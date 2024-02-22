@@ -72,7 +72,8 @@ header {
   display: none;
 }
 .button-container {
-  text-align: center; /* Center the buttons horizontally */
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .download-btn {
@@ -157,6 +158,24 @@ span {
   background: var(--btn-color);
   transition: 0.5s;
 }
+.libraries-row {
+  display: flex;
+  flex-wrap: wrap; /* Ensure the libraries row wraps to the next line if necessary */
+  justify-content: flex-start; /* Align libraries to the left */
+}
+
+.libraries-row .library-img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin: 5px; /* Adjust spacing between icons as needed */
+}
+
+@media (max-width: 800px) {
+  .libraries-row {
+    justify-content: center; /* Center icons on smaller screens */
+  }
+}
+
 .home-img img {
   max-width: 100%;
   width: 540px;
@@ -244,6 +263,17 @@ header.sticky {
   color: var(--secound-color);
   line-height: 28px;
   margin-bottom: 45px;
+}
+@media (max-width: 800px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-img {
+    margin-bottom: 30px;
+  }
 }
 
 .skills-text,
