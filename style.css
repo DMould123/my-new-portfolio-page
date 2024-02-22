@@ -160,19 +160,19 @@ span {
 }
 .libraries-row {
   display: flex;
-  flex-wrap: wrap; /* Ensure the libraries row wraps to the next line if necessary */
-  justify-content: flex-start; /* Align libraries to the left */
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .libraries-row .library-img {
-  width: 50px; /* Adjust size as needed */
+  width: 56px;
   height: auto;
-  margin: 5px; /* Adjust spacing between icons as needed */
+  margin: 5px;
 }
 
 @media (max-width: 800px) {
   .libraries-row {
-    justify-content: center; /* Center icons on smaller screens */
+    justify-content: center;
   }
 }
 
