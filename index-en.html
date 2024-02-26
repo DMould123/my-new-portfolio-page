@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>David Mould Personal Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -23,9 +22,11 @@
   </head>
   <body>
     <!-- header -->
-    <header>
-      <a href="#" class="logo"><img src="./img/DM.jpg" /></a>
-      <nav>
+    <header role="banner">
+      <a href="#" class="logo"
+        ><img src="./img/DM.jpg" alt="David Mould Logo"
+      /></a>
+      <nav role="navigation">
         <ul class="navlist">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Me</a></li>
@@ -37,16 +38,16 @@
       <button class="bx bx-menu" id="menu-icon"></button>
       <ul class="language-switcher">
         <li>
-          <a href="index-en.html"><img src="./img/gb.png" alt="UK" /></a>
+          <a href="index-en.html"><img src="./img/gb.png" alt="UK Flag" /></a>
         </li>
         <li>
-          <a href="index-sv.html"><img src="./img/se.png" alt="SE" /></a>
+          <a href="index-sv.html"><img src="./img/se.png" alt="SE Flag" /></a>
         </li>
       </ul>
     </header>
 
     <!-- home -->
-    <main>
+    <main role="main">
       <section class="home" id="home">
         <!-- Home content -->
         <div class="home-text">
@@ -75,28 +76,32 @@
             >
           </div>
           <div class="libraries-row">
-            <img src="./img/vue.png" alt="Vue.js" class="library-img" />
+            <img src="./img/vue.png" alt="Vue.js Logo" class="library-img" />
             <img
               src="./img/react-1-logo.png"
-              alt="React.js"
+              alt="React.js Logo"
               class="library-img"
             />
             <img
               src="./img/typescript.png"
-              alt="TypeScript"
+              alt="TypeScript Logo"
               class="library-img"
             />
             <img src="./img/node.png" alt="Node.js" class="library-img" />
-            <img src="./img/firebase.png" alt="Firebase" class="library-img" />
+            <img
+              src="./img/firebase.png"
+              alt="Firebase Logo"
+              class="library-img"
+            />
             <img
               src="./img/Mongodb-PNG-Image-HD.png"
-              alt="MongoDB"
+              alt="MongoDB Logo"
               class="library-img"
             />
           </div>
         </div>
         <div class="home-img">
-          <img src="./img/david1.png" />
+          <img src="./img/david1.png" alt="David Mould Image" />
         </div>
       </section>
 
@@ -104,7 +109,7 @@
       <section class="about" id="about">
         <!-- About content -->
         <div class="about-img">
-          <img src="./img/dm5.png" />
+          <img src="./img/dm5.png" alt="David Mould Image" />
         </div>
 
         <div class="about-text">
@@ -121,7 +126,7 @@
           <div class="items">
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/hike.jpg" />
+                <img src="./img/hike.jpg" alt="Hiking Image" />
               </div>
               <h3>Hiking</h3>
               <p>I enjoy hiking in the archipelagos.</p>
@@ -129,21 +134,21 @@
 
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/music.jpg" />
+                <img src="./img/music.jpg" alt="Music Image" />
               </div>
               <h3>Music</h3>
               <p>Nostalgic about indie music.</p>
             </div>
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/travel.jpg" />
+                <img src="./img/travel.jpg" alt="Travel Image" />
               </div>
               <h3>Travelling</h3>
               <p>Love travelling whenever possible.</p>
             </div>
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/nft.png" />
+                <img src="./img/nft.png" alt="Sorare Image" />
               </div>
               <h3>Sorare</h3>
               <p>NFT Fantasy Football game.</p>
@@ -219,13 +224,13 @@
       <section class="portfolio" id="portfolio">
         <!-- Portfolio content -->
         <div class="skills-text">
-          <h2>Portfolio</h2>
-          <p>Here are a few of my projects that I have created so far:</p>
+          <h2>My Portfolio</h2>
+          <p>Here are some projects I've worked on:</p>
         </div>
         <div class="service-content">
           <div class="row">
             <div class="s s-one">
-              <img src="./img/html.png" />
+              <img src="./img/html.png" alt="Project 1" />
             </div>
             <h3>HTML, CSS, & JavaScript</h3>
             <h5>
@@ -244,7 +249,7 @@
 
           <div class="row">
             <div class="s s-two">
-              <img src="./img/react-1-logo.png" />
+              <img src="./img/react-1-logo.png" alt="Project 2" />
             </div>
             <h3>React</h3>
             <h5>
@@ -260,7 +265,7 @@
 
           <div class="row">
             <div class="s s-three">
-              <img src="./img/typescript.png" />
+              <img src="./img/typescript.png" alt="Project 3" />
             </div>
             <h3>TypeScript</h3>
             <h5>
@@ -279,7 +284,7 @@
 
           <div class="row">
             <div class="s s-four">
-              <img src="./img/vue.png" />
+              <img src="./img/vue.png" alt="Project 4" />
             </div>
             <h3>Vue</h3>
             <h5>
@@ -360,9 +365,9 @@
     </main>
 
     <!-- footer -->
-    <div class="footer">
+    <footer role="contentinfo" class="footer">
       <p class="text-red-500 text-lg font-bold">© David Mould 2024 ©</p>
-    </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
