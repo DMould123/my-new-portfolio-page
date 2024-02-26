@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>David Mould Personlig Portfolio</title>
+    <title>David Mould Personlig Portfölj</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
@@ -22,30 +22,36 @@
   </head>
   <body>
     <!-- header -->
-    <main>
-      <header>
-        <a href="#" class="logo"><img src="./img/DM.jpg" /></a>
-        <nav>
-          <ul class="navlist">
-            <li><a href="#home">Hem</a></li>
-            <li><a href="#about">Om Mig</a></li>
-            <li><a href="#skills">Färdigheter</a></li>
-            <li><a href="#portfolio">Portfölj</a></li>
-            <li><a href="#contact">Kontakt</a></li>
-          </ul>
-        </nav>
-        <button class="bx bx-menu" id="menu-icon"></button>
-        <ul class="language-switcher">
-          <li>
-            <a href="index-en.html"><img src="./img/gb.png" alt="UK" /></a>
-          </li>
-          <li>
-            <a href="index-sv.html"><img src="./img/se.png" alt="SE" /></a>
-          </li>
+    <header role="banner">
+      <a href="#" class="logo"
+        ><img src="./img/DM.jpg" alt="David Mould logotyp"
+      /></a>
+      <nav>
+        <ul class="navlist">
+          <li><a href="#home">Hem</a></li>
+          <li><a href="#about">Om Mig</a></li>
+          <li><a href="#skills">Färdigheter</a></li>
+          <li><a href="#portfolio">Portfölj</a></li>
+          <li><a href="#contact">Kontakt</a></li>
         </ul>
-      </header>
+      </nav>
+      <button class="bx bx-menu" id="menu-icon"></button>
+      <ul class="language-switcher">
+        <li>
+          <a href="index-en.html"
+            ><img src="./img/gb.png" alt="Storbritanniens flagga"
+          /></a>
+        </li>
+        <li>
+          <a href="index-sv.html"
+            ><img src="./img/se.png" alt="Sverige flagga"
+          /></a>
+        </li>
+      </ul>
+    </header>
 
-      <!-- hem -->
+    <!-- hem -->
+    <main role="main">
       <section class="about" id="about">
         <!-- Hem content -->
         <div class="home-text">
@@ -76,28 +82,32 @@
             >
           </div>
           <div class="libraries-row">
-            <img src="./img/vue.png" alt="Vue.js" class="library-img" />
+            <img src="./img/vue.png" alt="Vue.js logotyp" class="library-img" />
             <img
               src="./img/react-1-logo.png"
-              alt="React.js"
+              alt="React.js logotyp"
               class="library-img"
             />
             <img
               src="./img/typescript.png"
-              alt="TypeScript"
+              alt="TypeScript logotyp"
               class="library-img"
             />
             <img src="./img/node.png" alt="Node.js" class="library-img" />
-            <img src="./img/firebase.png" alt="Firebase" class="library-img" />
+            <img
+              src="./img/firebase.png"
+              alt="Firebase logotyp"
+              class="library-img"
+            />
             <img
               src="./img/Mongodb-PNG-Image-HD.png"
-              alt="MongoDB"
+              alt="MongoDB logotyp"
               class="library-img"
             />
           </div>
         </div>
         <div class="home-img">
-          <img src="./img/david1.png" />
+          <img src="./img/david1.png" alt="David Mould bild" />
         </div>
       </section>
 
@@ -105,7 +115,7 @@
       <section class="about" id="about">
         <!-- Om content -->
         <div class="about-img">
-          <img src="./img/dm5.png" />
+          <img src="./img/dm5.png" alt="David Mould bild" />
         </div>
 
         <div class="about-text">
@@ -123,7 +133,7 @@
           <div class="items">
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/hike.jpg" />
+                <img src="./img/hike.jpg" alt="Vandringsbild" />
               </div>
               <h3>Vandring</h3>
               <p>Jag tycker om att vandra i skärgården.</p>
@@ -131,21 +141,21 @@
 
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/music.jpg" />
+                <img src="./img/music.jpg" alt="Musik bild" />
               </div>
               <h3>Musik</h3>
               <p>Nostalgisk över indie-musik.</p>
             </div>
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/travel.jpg" />
+                <img src="./img/travel.jpg" alt="resebild" />
               </div>
               <h3>Resor</h3>
               <p>Älskar att resa när det är möjligt.</p>
             </div>
             <div class="sub-box">
               <div class="sub-img">
-                <img src="./img/nft.png" />
+                <img src="./img/nft.png" alt="Sorare bild" />
               </div>
               <h3>Sorare</h3>
               <p>NFT Fantasy Football-spel.</p>
@@ -227,7 +237,7 @@
         <div class="service-content">
           <div class="row">
             <div class="s s-one">
-              <img src="./img/html.png" />
+              <img src="./img/html.png" alt="Projekt 1" />
             </div>
             <h3>HTML, CSS, & JavaScript</h3>
             <h5>
@@ -245,7 +255,7 @@
           </div>
           <div class="row">
             <div class="s s-two">
-              <img src="./img/react-1-logo.png" />
+              <img src="./img/react-1-logo.png" alt="Projekt 2" />
             </div>
             <h3>React</h3>
             <h5>
@@ -261,7 +271,7 @@
 
           <div class="row">
             <div class="s s-three">
-              <img src="./img/typescript.png" />
+              <img src="./img/typescript.png" alt="Projekt 3" />
             </div>
             <h3>TypeScript</h3>
             <h5>
@@ -280,7 +290,7 @@
 
           <div class="row">
             <div class="s s-four">
-              <img src="./img/vue.png" />
+              <img src="./img/vue.png" alt="Projekt 4" />
             </div>
             <h3>Vue</h3>
             <h5>
@@ -361,9 +371,9 @@
     </main>
 
     <!-- footer -->
-    <div class="footer">
-      <p>© David Mould 2024 ©</p>
-    </div>
+    <footer role="contentinfo" class="footer">
+      <p class="text-red-500 text-lg font-bold">© David Mould 2024 ©</p>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
