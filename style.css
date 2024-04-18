@@ -190,11 +190,11 @@ span {
 .libraries-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center; /* Center the logos horizontally */
 }
 
 .libraries-row .library-img {
-  width: 56px;
+  width: 51px; /* Adjust the width of the logos for smaller screens */
   height: auto;
   margin: 5px;
 }
