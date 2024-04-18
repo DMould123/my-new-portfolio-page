@@ -7,22 +7,32 @@ const toggleStickyHeader = () => {
   header.classList.toggle('sticky', window.scrollY > 0)
 }
 
-// Function to toggle menu icon and navlist
-const toggleMenu = () => {
-  menu.classList.toggle('bx-x')
-  navlist.classList.toggle('active')
+// Function to close menu
+const closeMenu = () => {
+  menu.classList.remove('bx-x')
+  navlist.classList.remove('active')
 }
 
 // Event listener for scrolling
 window.addEventListener('scroll', () => {
   toggleStickyHeader()
   // Close menu on scroll
-  toggleMenu(false)
+  closeMenu()
 })
 
 // Event listener for menu icon click
 menu.addEventListener('click', () => {
-  toggleMenu()
+  menu.classList.toggle('bx-x') // Toggle menu icon
+  navlist.classList.toggle('active') // Toggle navlist
+})
+
+// Event listener for clicking outside the menu to close it
+document.addEventListener('click', (event) => {
+  const isClickInsideMenu = menu.contains(event.target)
+  const isClickInsideNavlist = navlist.contains(event.target)
+  if (!isClickInsideMenu && !isClickInsideNavlist) {
+    closeMenu()
+  }
 })
 
 // Initialize ScrollReveal
