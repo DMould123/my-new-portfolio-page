@@ -22,8 +22,8 @@ window.addEventListener('scroll', () => {
 
 // Event listener for menu icon click
 menu.addEventListener('click', () => {
-  menu.classList.toggle('bx-x') // Toggle menu icon
-  navlist.classList.toggle('active') // Toggle navlist
+  menu.classList.toggle('bx-x')
+  navlist.classList.toggle('active')
 })
 
 // Event listener for clicking outside the menu to close it
