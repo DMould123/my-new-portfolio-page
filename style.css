@@ -88,10 +88,11 @@ header {
   display: none;
 }
 
-/* Button styles */
+/* Button container styles */
 .button-container {
-  text-align: center;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Add margin to separate from social links and libraries row */
 }
 
 .download-btn {
@@ -136,6 +137,20 @@ section {
   grid-gap: 4rem;
 }
 
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+  justify-content: center;
+  text-align: center;
+}
+
+.home-text h1,
+.home-text h5,
+.home-text p {
+  width: 100%;
+}
+
 .home-text h1 {
   margin: 10px 0px 25px;
   font-size: var(--big-font);
@@ -166,6 +181,13 @@ span {
   margin-bottom: 20px;
 }
 
+/* Social links styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin to separate from buttons */
+}
+
 .social-links a {
   width: 35px;
   height: 35px;
@@ -191,6 +213,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px; /* Add margin to separate from buttons */
 }
 
 .libraries-row .library-img {
