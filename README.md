@@ -2,7 +2,7 @@
 
 ## Description 🌍
 
-This is a personal portfolio website for David Mould, which includes a profile section with social links, a navigation bar, and a footer. It also uses the FontAwesome icon library for the social links and navigation icons.
+This is a personal portfolio website, which includes a profile section with social links, a navigation bar, and a footer. It also uses the FontAwesome icon library for the social links and navigation icons.
 
 ## Objectives 🎯
 
